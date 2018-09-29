@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ZHCG.Data;
 
 namespace ZHCG.Web.Controllers
 {
@@ -10,10 +11,21 @@ namespace ZHCG.Web.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly ZHCGDbContext db;
+        public ValuesController(ZHCGDbContext _db)
+        {
+            db = _db;
+        }
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            db.Users.Add(new Data.Entity.User
+            {
+                Password = "qwe123",
+                UserName = "qwe"
+            });
+            db.SaveChanges();
             return new string[] { "value1", "value2" };
         }
 
@@ -21,6 +33,7 @@ namespace ZHCG.Web.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
+
             return "value";
         }
 
