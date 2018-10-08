@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  zhcg.identityserver:
+    image: ${DOCKER_REGISTRY}zhcgidentityserver
+    build:
+      context: .
+      dockerfile: ZHCG.IdentityServer\Dockerfile

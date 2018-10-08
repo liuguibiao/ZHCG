@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZHCG.Web", "ZHCG.Web\ZHCG.Web.csproj", "{BDE0987E-75D4-4BD5-A204-F818EE0BC1E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZHCG.Web", "ZHCG.Web\ZHCG.Web.csproj", "{BDE0987E-75D4-4BD5-A204-F818EE0BC1E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZHCG.Data", "ZHCG.Data\ZHCG.Data.csproj", "{BD71EFE2-D875-403D-86E1-6F5B559226EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZHCG.Core", "ZHCG.Core\ZHCG.Core.csproj", "{799AB855-2B21-4B0F-8ABA-2B8C72F2E72A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZHCG.Core", "ZHCG.Core\ZHCG.Core.csproj", "{799AB855-2B21-4B0F-8ABA-2B8C72F2E72A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZHCG.Application", "ZHCG.Application\ZHCG.Application.csproj", "{8F71E4B4-2620-411B-BDDA-B5BA42D6167B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZHCG.Application", "ZHCG.Application\ZHCG.Application.csproj", "{8F71E4B4-2620-411B-BDDA-B5BA42D6167B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D5C56B8B-6963-483D-A63F-F84667EF303B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8F71E4B4-2620-411B-BDDA-B5BA42D6167B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F71E4B4-2620-411B-BDDA-B5BA42D6167B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F71E4B4-2620-411B-BDDA-B5BA42D6167B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C56B8B-6963-483D-A63F-F84667EF303B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C56B8B-6963-483D-A63F-F84667EF303B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C56B8B-6963-483D-A63F-F84667EF303B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C56B8B-6963-483D-A63F-F84667EF303B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

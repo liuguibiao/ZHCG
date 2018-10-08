@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IdentityServer4.Models;
+using IdentityServer4.Test;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,23 +29,20 @@ namespace ZHCG.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddIdentityServer()
+            //    .AddDeveloperSigningCredential()
+            //    .AddInMemoryApiResources(Config.GetResources()) //添加配置的资源ApiResource
+            //    .AddInMemoryClients(Config.GetClients());//添加配置的客户端Client
+
             services.AddDbContext<ZHCGDbContext>(options =>
                  options.UseSqlServer(Configuration.GetConnectionString("DefaultConStr")));
-
-            InMemoryConfiguration.Configuration = this.Configuration;
-            services.AddIdentityServer()
-                .AddDeveloperSigningCredential()
-                .AddTestUsers(InMemoryConfiguration.GetUsers().ToList())
-                .AddInMemoryClients(InMemoryConfiguration.GetClients())
-                .AddInMemoryApiResources(InMemoryConfiguration.GetApiResources());
-
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            //app.UseIdentityServer();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -52,11 +51,9 @@ namespace ZHCG.Web
             {
                 app.UseHsts();
             }
-
             app.UseHttpsRedirection();
             app.UseMvc();
 
-            app.UseIdentityServer();
         }
     }
 }

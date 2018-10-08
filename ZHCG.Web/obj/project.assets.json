@@ -6377,10 +6377,11 @@
       ]
     },
     "Microsoft.IdentityModel.Logging/5.2.1": {
-      "sha512": "kbmvhMYu5OZXWN3toFXhrj3bSN7B+ZzNWzAZQ4Ofp5x2srk9ZCYFljETGS5faxzPwGd5+7W4WZlAfOI7QvzhlA==",
+      "sha512": "wbc79ozWXtK4cmhWWqp5+kxdPWxlA02MjDL7mzKJ44ie5vhT0M/FF2sZhqOArGDkrJRjSUYkh6GyScdxqat/Cw==",
       "type": "package",
       "path": "microsoft.identitymodel.logging/5.2.1",
       "files": [
+        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Logging.dll",
         "lib/net45/Microsoft.IdentityModel.Logging.xml",
         "lib/net451/Microsoft.IdentityModel.Logging.dll",
@@ -6437,10 +6438,11 @@
       ]
     },
     "Microsoft.IdentityModel.Tokens/5.2.1": {
-      "sha512": "wVWYpXfE6gpkSrIRNo5TDVC7ss6KPTTrmT6x8ysHiZRIMSRAZ8TyHEAmpdATBBPNRmnlevyAs4CK6nPfDpCTqw==",
+      "sha512": "gA3c8EQZWmUcQ+GJQ6Y2i/B6/iBfBzdw/EEOkVxB4N9tKCrbNutLYy1lGzo8J2G5l24T1iYpWcOJJW4jqAoL6Q==",
       "type": "package",
       "path": "microsoft.identitymodel.tokens/5.2.1",
       "files": [
+        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Tokens.dll",
         "lib/net45/Microsoft.IdentityModel.Tokens.xml",
         "lib/net451/Microsoft.IdentityModel.Tokens.dll",
@@ -8388,10 +8390,11 @@
       ]
     },
     "System.IdentityModel.Tokens.Jwt/5.2.1": {
-      "sha512": "QwALOmIQnwYXO7SZuzHvp+aF9+E8kouJl2JDHe9hyV/Mqzl2KhOwZMlN+mhyIYo5ggHcIVa/LN7E46WD26OEEg==",
+      "sha512": "RLfvfomZPVUX3T5aS0NKvCiPu42WoHjthT2o4ppQmC3hLrJWvT7UQaUAB1UGB+UyOedf/JEsWsARfSIUO8B+0Q==",
       "type": "package",
       "path": "system.identitymodel.tokens.jwt/5.2.1",
       "files": [
+        ".signature.p7s",
         "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net451/System.IdentityModel.Tokens.Jwt.dll",
@@ -11628,11 +11631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xx\\ZHCG.Web\\ZHCG.Web\\ZHCG.Web.csproj",
+      "projectUniqueName": "E:\\ZHCG\\ZHCG.Web\\ZHCG.Web.csproj",
       "projectName": "ZHCG.Web",
-      "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Web\\ZHCG.Web.csproj",
+      "projectPath": "E:\\ZHCG\\ZHCG.Web\\ZHCG.Web.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\xx\\ZHCG.Web\\ZHCG.Web\\obj\\",
+      "outputPath": "E:\\ZHCG\\ZHCG.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11651,14 +11654,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\xx\\ZHCG.Web\\ZHCG.Application\\ZHCG.Application.csproj": {
-              "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Application\\ZHCG.Application.csproj"
+            "E:\\ZHCG\\ZHCG.Application\\ZHCG.Application.csproj": {
+              "projectPath": "E:\\ZHCG\\ZHCG.Application\\ZHCG.Application.csproj"
             },
-            "D:\\xx\\ZHCG.Web\\ZHCG.Core\\ZHCG.Core.csproj": {
-              "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Core\\ZHCG.Core.csproj"
+            "E:\\ZHCG\\ZHCG.Core\\ZHCG.Core.csproj": {
+              "projectPath": "E:\\ZHCG\\ZHCG.Core\\ZHCG.Core.csproj"
             },
-            "D:\\xx\\ZHCG.Web\\ZHCG.Data\\ZHCG.Data.csproj": {
-              "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Data\\ZHCG.Data.csproj"
+            "E:\\ZHCG\\ZHCG.Data\\ZHCG.Data.csproj": {
+              "projectPath": "E:\\ZHCG\\ZHCG.Data\\ZHCG.Data.csproj"
             }
           }
         }

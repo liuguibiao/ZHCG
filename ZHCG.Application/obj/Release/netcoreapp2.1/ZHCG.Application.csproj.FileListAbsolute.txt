@@ -1,0 +1,14 @@
+E:\ZHCG\ZHCG.Application\bin\Release\netcoreapp2.1\ZHCG.Application.deps.json
+E:\ZHCG\ZHCG.Application\bin\Release\netcoreapp2.1\ZHCG.Application.dll
+E:\ZHCG\ZHCG.Application\bin\Release\netcoreapp2.1\ZHCG.Application.pdb
+E:\ZHCG\ZHCG.Application\bin\Release\netcoreapp2.1\ZHCG.Core.dll
+E:\ZHCG\ZHCG.Application\bin\Release\netcoreapp2.1\ZHCG.Data.dll
+E:\ZHCG\ZHCG.Application\bin\Release\netcoreapp2.1\ZHCG.Core.pdb
+E:\ZHCG\ZHCG.Application\bin\Release\netcoreapp2.1\ZHCG.Data.pdb
+E:\ZHCG\ZHCG.Application\obj\Release\netcoreapp2.1\ZHCG.Application.csprojAssemblyReference.cache
+E:\ZHCG\ZHCG.Application\obj\Release\netcoreapp2.1\ZHCG.Application.csproj.CoreCompileInputs.cache
+E:\ZHCG\ZHCG.Application\obj\Release\netcoreapp2.1\ZHCG.Application.AssemblyInfoInputs.cache
+E:\ZHCG\ZHCG.Application\obj\Release\netcoreapp2.1\ZHCG.Application.AssemblyInfo.cs
+E:\ZHCG\ZHCG.Application\obj\Release\netcoreapp2.1\ZHCG.Application.csproj.CopyComplete
+E:\ZHCG\ZHCG.Application\obj\Release\netcoreapp2.1\ZHCG.Application.dll
+E:\ZHCG\ZHCG.Application\obj\Release\netcoreapp2.1\ZHCG.Application.pdb

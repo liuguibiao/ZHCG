@@ -3446,11 +3446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xx\\ZHCG.Web\\ZHCG.Application\\ZHCG.Application.csproj",
+      "projectUniqueName": "E:\\ZHCG\\ZHCG.Application\\ZHCG.Application.csproj",
       "projectName": "ZHCG.Application",
-      "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Application\\ZHCG.Application.csproj",
+      "projectPath": "E:\\ZHCG\\ZHCG.Application\\ZHCG.Application.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\xx\\ZHCG.Web\\ZHCG.Application\\obj\\",
+      "outputPath": "E:\\ZHCG\\ZHCG.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3469,11 +3469,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\xx\\ZHCG.Web\\ZHCG.Core\\ZHCG.Core.csproj": {
-              "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Core\\ZHCG.Core.csproj"
+            "E:\\ZHCG\\ZHCG.Core\\ZHCG.Core.csproj": {
+              "projectPath": "E:\\ZHCG\\ZHCG.Core\\ZHCG.Core.csproj"
             },
-            "D:\\xx\\ZHCG.Web\\ZHCG.Data\\ZHCG.Data.csproj": {
-              "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Data\\ZHCG.Data.csproj"
+            "E:\\ZHCG\\ZHCG.Data\\ZHCG.Data.csproj": {
+              "projectPath": "E:\\ZHCG\\ZHCG.Data\\ZHCG.Data.csproj"
             }
           }
         }

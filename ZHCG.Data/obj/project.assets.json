@@ -3412,11 +3412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xx\\ZHCG.Web\\ZHCG.Data\\ZHCG.Data.csproj",
+      "projectUniqueName": "E:\\ZHCG\\ZHCG.Data\\ZHCG.Data.csproj",
       "projectName": "ZHCG.Data",
-      "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Data\\ZHCG.Data.csproj",
+      "projectPath": "E:\\ZHCG\\ZHCG.Data\\ZHCG.Data.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\xx\\ZHCG.Web\\ZHCG.Data\\obj\\",
+      "outputPath": "E:\\ZHCG\\ZHCG.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
