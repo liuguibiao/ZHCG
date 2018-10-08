@@ -29,6 +29,15 @@ namespace ZHCG.Web
         {
             services.AddDbContext<ZHCGDbContext>(options =>
                  options.UseSqlServer(Configuration.GetConnectionString("DefaultConStr")));
+
+            InMemoryConfiguration.Configuration = this.Configuration;
+            services.AddIdentityServer()
+                .AddDeveloperSigningCredential()
+                .AddTestUsers(InMemoryConfiguration.GetUsers().ToList())
+                .AddInMemoryClients(InMemoryConfiguration.GetClients())
+                .AddInMemoryApiResources(InMemoryConfiguration.GetApiResources());
+
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -46,6 +55,8 @@ namespace ZHCG.Web
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            app.UseIdentityServer();
         }
     }
 }

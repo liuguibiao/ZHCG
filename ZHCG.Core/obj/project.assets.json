@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ZHCG\\ZHCG.Core\\ZHCG.Core.csproj",
+      "projectUniqueName": "D:\\xx\\ZHCG.Web\\ZHCG.Core\\ZHCG.Core.csproj",
       "projectName": "ZHCG.Core",
-      "projectPath": "E:\\ZHCG\\ZHCG.Core\\ZHCG.Core.csproj",
+      "projectPath": "D:\\xx\\ZHCG.Web\\ZHCG.Core\\ZHCG.Core.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\ZHCG\\ZHCG.Core\\obj\\",
+      "outputPath": "D:\\xx\\ZHCG.Web\\ZHCG.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
