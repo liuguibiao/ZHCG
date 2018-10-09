@@ -1,9 +1,0 @@
-E:\ZHCG\ZHCG.Data\bin\Release\netcoreapp2.1\ZHCG.Data.deps.json
-E:\ZHCG\ZHCG.Data\bin\Release\netcoreapp2.1\ZHCG.Data.dll
-E:\ZHCG\ZHCG.Data\bin\Release\netcoreapp2.1\ZHCG.Data.pdb
-E:\ZHCG\ZHCG.Data\obj\Release\netcoreapp2.1\ZHCG.Data.csprojAssemblyReference.cache
-E:\ZHCG\ZHCG.Data\obj\Release\netcoreapp2.1\ZHCG.Data.csproj.CoreCompileInputs.cache
-E:\ZHCG\ZHCG.Data\obj\Release\netcoreapp2.1\ZHCG.Data.AssemblyInfoInputs.cache
-E:\ZHCG\ZHCG.Data\obj\Release\netcoreapp2.1\ZHCG.Data.AssemblyInfo.cs
-E:\ZHCG\ZHCG.Data\obj\Release\netcoreapp2.1\ZHCG.Data.dll
-E:\ZHCG\ZHCG.Data\obj\Release\netcoreapp2.1\ZHCG.Data.pdb
