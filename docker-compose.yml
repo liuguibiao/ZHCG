@@ -6,3 +6,24 @@ services:
     build:
       context: .
       dockerfile: ZHCG.IdentityServer\Dockerfile
+
+  api:
+    image: ${DOCKER_REGISTRY}api
+    build:
+      context: .
+      dockerfile: Api\Dockerfile
+
+
+  QuickstartIdentityServer.api:
+    image: ${DOCKER_REGISTRY}zhcgwebapi
+    build:
+      context: .
+      dockerfile: QuickstartIdentityServer.Api\Dockerfile
+
+
+  quickstartidentityserver:
+    image: ${DOCKER_REGISTRY}quickstartidentityserver
+    build:
+      context: .
+      dockerfile: QuickstartIdentityServer\Dockerfile
+

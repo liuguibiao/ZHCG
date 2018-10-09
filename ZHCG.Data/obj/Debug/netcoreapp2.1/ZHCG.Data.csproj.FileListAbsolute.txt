@@ -1,0 +1,17 @@
+E:\ZHCG\ZHCG.Data\bin\Debug\netcoreapp2.1\ZHCG.Data.deps.json
+E:\ZHCG\ZHCG.Data\bin\Debug\netcoreapp2.1\ZHCG.Data.dll
+E:\ZHCG\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.csproj.CoreCompileInputs.cache
+E:\ZHCG\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.AssemblyInfoInputs.cache
+E:\ZHCG\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.AssemblyInfo.cs
+E:\ZHCG\ZHCG.Data\bin\Debug\netcoreapp2.1\ZHCG.Data.pdb
+E:\ZHCG\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.dll
+E:\ZHCG\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.pdb
+D:\xx\ZHCG.Web\ZHCG.Data\bin\Debug\netcoreapp2.1\ZHCG.Data.deps.json
+D:\xx\ZHCG.Web\ZHCG.Data\bin\Debug\netcoreapp2.1\ZHCG.Data.dll
+D:\xx\ZHCG.Web\ZHCG.Data\bin\Debug\netcoreapp2.1\ZHCG.Data.pdb
+D:\xx\ZHCG.Web\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.csprojAssemblyReference.cache
+D:\xx\ZHCG.Web\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.csproj.CoreCompileInputs.cache
+D:\xx\ZHCG.Web\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.AssemblyInfoInputs.cache
+D:\xx\ZHCG.Web\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.AssemblyInfo.cs
+D:\xx\ZHCG.Web\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.dll
+D:\xx\ZHCG.Web\ZHCG.Data\obj\Debug\netcoreapp2.1\ZHCG.Data.pdb

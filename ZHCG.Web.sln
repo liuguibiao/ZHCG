@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZHCG.Web", "ZHCG.Web\ZHCG.Web.csproj", "{BDE0987E-75D4-4BD5-A204-F818EE0BC1E7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZHCG.Data", "ZHCG.Data\ZHCG.Data.csproj", "{BD71EFE2-D875-403D-86E1-6F5B559226EC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZHCG.Core", "ZHCG.Core\ZHCG.Core.csproj", "{799AB855-2B21-4B0F-8ABA-2B8C72F2E72A}"
@@ -13,16 +11,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZHCG.Application", "ZHCG.Ap
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D5C56B8B-6963-483D-A63F-F84667EF303B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{3F38EDF5-7E62-412E-9F83-7CD84F573D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZHCG.Web.Api", "ZHCG.Web.Api\ZHCG.Web.Api.csproj", "{003F82A5-1009-465C-B420-18EC0F06D023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickstartIdentityServer", "QuickstartIdentityServer\QuickstartIdentityServer.csproj", "{D2262B2B-172B-47EC-9E00-E9DBF2A0099D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BDE0987E-75D4-4BD5-A204-F818EE0BC1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDE0987E-75D4-4BD5-A204-F818EE0BC1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDE0987E-75D4-4BD5-A204-F818EE0BC1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDE0987E-75D4-4BD5-A204-F818EE0BC1E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD71EFE2-D875-403D-86E1-6F5B559226EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD71EFE2-D875-403D-86E1-6F5B559226EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD71EFE2-D875-403D-86E1-6F5B559226EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +39,18 @@ Global
 		{D5C56B8B-6963-483D-A63F-F84667EF303B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C56B8B-6963-483D-A63F-F84667EF303B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C56B8B-6963-483D-A63F-F84667EF303B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F38EDF5-7E62-412E-9F83-7CD84F573D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F38EDF5-7E62-412E-9F83-7CD84F573D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F38EDF5-7E62-412E-9F83-7CD84F573D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F38EDF5-7E62-412E-9F83-7CD84F573D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003F82A5-1009-465C-B420-18EC0F06D023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003F82A5-1009-465C-B420-18EC0F06D023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003F82A5-1009-465C-B420-18EC0F06D023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003F82A5-1009-465C-B420-18EC0F06D023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2262B2B-172B-47EC-9E00-E9DBF2A0099D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2262B2B-172B-47EC-9E00-E9DBF2A0099D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2262B2B-172B-47EC-9E00-E9DBF2A0099D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2262B2B-172B-47EC-9E00-E9DBF2A0099D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

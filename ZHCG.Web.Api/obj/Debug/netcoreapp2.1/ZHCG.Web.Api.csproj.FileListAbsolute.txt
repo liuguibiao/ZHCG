@@ -1,0 +1,15 @@
+E:\ZHCG\ZHCG.Web.Api\bin\Debug\netcoreapp2.1\ZHCG.Web.Api.deps.json
+E:\ZHCG\ZHCG.Web.Api\bin\Debug\netcoreapp2.1\ZHCG.Web.Api.runtimeconfig.json
+E:\ZHCG\ZHCG.Web.Api\bin\Debug\netcoreapp2.1\ZHCG.Web.Api.runtimeconfig.dev.json
+E:\ZHCG\ZHCG.Web.Api\bin\Debug\netcoreapp2.1\ZHCG.Web.Api.dll
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.csprojAssemblyReference.cache
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.csproj.CoreCompileInputs.cache
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.RazorAssemblyInfo.cache
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.RazorAssemblyInfo.cs
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.AssemblyInfoInputs.cache
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.AssemblyInfo.cs
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.RazorTargetAssemblyInfo.cache
+E:\ZHCG\ZHCG.Web.Api\bin\Debug\netcoreapp2.1\ZHCG.Web.Api.pdb
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.dll
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\ZHCG.Web.Api.pdb
+E:\ZHCG\ZHCG.Web.Api\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
