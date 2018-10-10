@@ -4,18 +4,28 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ZHCG.Data;
 
 namespace QuickstartIdentityServer.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class ValuesController : ControllerBase
     {
+        private readonly ZHCGDbContext _db;
+        public ValuesController(ZHCGDbContext db)
+        {
+            _db = db;
+        }
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            _db.Users.Add(new ZHCG.Data.Entity.User
+            {
+                Password = "123",
+                UserName = "456"
+            });
             return new string[] { "value1", "value2" };
         }
 
