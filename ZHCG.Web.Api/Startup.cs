@@ -27,21 +27,18 @@ namespace QuickstartIdentityServer.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvcCore().AddJsonFormatters();
-            services.AddAuthentication((options) =>
-            {
-                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-                .AddJwtBearer(options =>
-                {
-                    options.TokenValidationParameters = new TokenValidationParameters();
-                    options.RequireHttpsMetadata = false;
-                    options.Audience = "api1";//api范围
-                    options.Authority = "http://localhost:5000";//IdentityServer地址
-                });
+            services.AddMvcCore()
+                .AddAuthorization()
+                .AddJsonFormatters();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddAuthentication("Bearer")
+                .AddIdentityServerAuthentication(options =>
+                {
+                    options.Authority = "http://localhost:5000";
+                    options.RequireHttpsMetadata = false;
+
+                    options.ApiName = "api1";
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,8 +53,13 @@ namespace QuickstartIdentityServer.Api
                 app.UseHsts();
             }
 
+            //oauth2
+            app.UseAuthentication();
+
+
             app.UseHttpsRedirection();
             app.UseMvc();
+
         }
     }
 }
