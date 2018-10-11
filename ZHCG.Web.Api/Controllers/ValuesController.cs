@@ -26,6 +26,7 @@ namespace QuickstartIdentityServer.Api.Controllers
                 Password = "123",
                 UserName = "456"
             });
+            _db.SaveChanges();
             return new string[] { "value1", "value2" };
         }
 

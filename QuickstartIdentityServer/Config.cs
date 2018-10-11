@@ -9,6 +9,15 @@ namespace QuickstartIdentityServer
 {
     public class Config
     {
+        public static IEnumerable<IdentityResource> GetIdentityResources()
+        {
+            return new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile(),
+            };
+        }
+
         // scopes define the API resources in your system
         public static IEnumerable<ApiResource> GetApiResources()
         {
@@ -23,31 +32,31 @@ namespace QuickstartIdentityServer
         {
             return new List<Client>
             {
-                new Client
-                {
-                    ClientId = "client",
-                    // 没有交互性用户，使用 clientid/secret 实现认证。
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    // 用于认证的密码
-                    ClientSecrets =
-                    {
-                        new Secret("secret".Sha256())
-                    },
-                    // 客户端有权访问的范围（Scopes）
-                    AllowedScopes = { "api1" }
-                },
-                // resource owner password grant client
-                new Client
-                {
-                    ClientId = "ro.client",
-                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+                //new Client
+                //{
+                //    ClientId = "client",
+                //    // 没有交互性用户，使用 clientid/secret 实现认证。
+                //    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                //    // 用于认证的密码
+                //    ClientSecrets =
+                //    {
+                //        new Secret("secret".Sha256())
+                //    },
+                //    // 客户端有权访问的范围（Scopes）
+                //    AllowedScopes = { "api1" }
+                //},
+                //// resource owner password grant client
+                //new Client
+                //{
+                //    ClientId = "ro.client",
+                //    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
 
-                    ClientSecrets =
-                    {
-                        new Secret("secret".Sha256())
-                    },
-                    AllowedScopes = { "api1" }
-                }
+                //    ClientSecrets =
+                //    {
+                //        new Secret("secret".Sha256())
+                //    },
+                //    AllowedScopes = { "api1" }
+                //}
             };
         }
 
